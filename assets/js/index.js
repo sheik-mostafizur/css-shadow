@@ -1,5 +1,5 @@
 const shadowDB = async () => {
-  const URL = `${window.location.origin}/assets/js/shadow_data.json`;
+  const URL = `/css-shadow/${window.location.origin}/assets/js/shadow_data.json`;
   console.log(URL)
   const jsonData = await fetch(URL);
   const data = await jsonData.json();
